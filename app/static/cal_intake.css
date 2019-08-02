@@ -10,7 +10,7 @@ body {
 h1 {
    color: white;
    text-align: center;
-   background-color: rgb(240, 98, 146, 0.9)
+   background-color: #90caf9 ;
 }
 
 .input-field {
@@ -26,7 +26,7 @@ h1 {
 
 input {
    color: white !important;
-   background-color: rgb(240, 98, 146, 0.9) !important;
+   background-color: #90caf9  !important;
 }
 
 p {
@@ -35,7 +35,7 @@ p {
 }
 
 input[type=text] {
-   background-color: #3CBC8D;
-   color: black;
+   background-color: white ;
+   color: white;
    font-weight: bold;
 }

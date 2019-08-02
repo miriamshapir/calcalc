@@ -19,11 +19,14 @@
         <h1>The daily calorie intake for a {{age}} year old {{gender}} that weighs {{weight}}lbs should be {{calories}} per day.</h1>
         <form action="/results" <form method="post" action="/results">
             <input type="hidden" name="cal_intake" value={{calories}} />
-            <input type="text" name="calsEaten" placeholder="Enter what you've eaten" autocomplete="off"/>
             <div class="col l12"></div>
             <div class="container">
-                <div class="row">
-                    <input type="submit" value="submit">
+                <input type="text" name="calsEaten" placeholder="Enter what you've eaten" autocomplete="off" />
+                <div class="col l12"></div>
+                <div class="container">
+                    <div class="row">
+                        <input type="submit" value="submit">
+                    </div>
                 </div>
             </div>
 </body>
