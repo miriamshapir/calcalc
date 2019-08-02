@@ -1,0 +1,41 @@
+body {
+   border: 2px solid black;
+   padding: 25px;
+   background: url("https://thriftymommaramblings.com/wp-content/uploads/2018/03/calorie-intake-for-women.jpeg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   opacity: 1;
+}
+
+h1 {
+   color: white;
+   text-align: center;
+   background-color: rgb(240, 98, 146, 0.9)
+}
+
+.input-field {
+   color:  white !important;
+}
+
+::-webkit-input-placeholder {
+   /* WebKit browsers */
+   color: white !important;
+   font-weight: bold;
+   opacity: 1 !important;
+}
+
+input {
+   color: white !important;
+   background-color: rgb(240, 98, 146, 0.9) !important;
+}
+
+p {
+   font-family: Times;
+   font-size: 20px;
+}
+
+input[type=text] {
+   background-color: #3CBC8D;
+   color: black;
+   font-weight: bold;
+}
